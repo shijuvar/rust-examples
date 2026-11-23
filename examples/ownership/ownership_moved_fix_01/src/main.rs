@@ -5,7 +5,5 @@ fn main() {
 }
 
 fn add_lastname(name: &str) -> String {
-    name.push_str("Varghese");
-    // format!("{name} Varghese")
-    name
+    format!("{name} Varghese")
 }
