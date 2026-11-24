@@ -3,7 +3,7 @@ fn main() {
     let first_name = String::from("Shiju");
     // Calling add_lastname moves the ownership of the string from first_name to name.
     // The string data is not copied, but the pointer to the data is copied.
-    // This function returned name, transferring ownership of the string to full_name.
+    // This function returned full_name, transferring ownership of the string to full_name.
     let full_name = add_lastname(first_name);
     println!("full name: {full_name}");
 }

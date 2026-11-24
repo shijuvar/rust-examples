@@ -5,6 +5,7 @@ fn main() {
     println!("full name: {full_name}, first name: {first_name}");
 }
 
+// mutable reference borrowing: passing a mutable reference to a complex value to a function
 fn add_lastname(name: &mut String) -> String {
     name.push_str(" Varghese");
     name.clone()
